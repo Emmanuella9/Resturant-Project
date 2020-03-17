@@ -1,0 +1,107 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.jpg" type="image/jpg">
+    <title>The Culinary Kitchen</title>
+</head>
+<style>
+     @media screen and(min-width: 480px) {
+    .column img{
+        width: 100%;
+        height: auto;
+        background-color: blue;
+      }
+    }
+    body {
+        
+        background-image: url(img/picture_1.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    footer{
+        text-align: center;
+        margin-top: 10px;
+        padding: 10px;
+    }
+    .credit{
+        font-weight: bolder;
+        font-size: 2em;
+        font-style: italic;
+        word-spacing: 5em;
+    }
+
+    a,
+    p,
+    h2{
+        text-align: center;
+        color: lime;
+    }
+    button{
+        background-color:lightgreen;
+        color: black;
+        font-style: italic;
+        border: none;
+    }
+
+</style>
+<body>
+    <nav>
+        <div>
+            <p class="credit">
+            <a href="index1.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="menu.html">Menu</a>
+            <a href="prices.html">Prices</a>
+            <a href="contact.html">Contacts</a>
+            </p>
+        </div>
+        </nav>
+        <div>
+            <h2>Place Your Order</h2>
+            <div>
+                <h2>
+                <form action="">
+                    <div>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="user_name">
+                    </div>
+                    <div>
+                        <label for="mail">E-mail</label>
+                        <input type="email" id="mail" name="user_mail">
+                    </div>
+                    <div>
+                        <label for="order">Order</label>
+                        <textarea name="user_order" id="order"></textarea>
+                    </div>
+                    <div class="button">
+                        <button type="submit">Send</button>
+
+                    </div>
+                </form>
+                </h2>
+            </div>
+        </div>
+        <h2>
+            <p>Contact Us </p>
+            <p>Phone Number: 07036762295</p>
+            <p>Email: theculinarykitchen@gmail.com</p>
+        </h2>
+        <footer>
+            <a href="https://www.facebook.com/theculinaryplace" target="_blank">
+                <img src="img/FB.png" title="Facebook" height="35" width="35"/>
+             </a>
+             <a href="https://www.instagram.com/theculinaryplace" target="-blank">
+              <img src="img/IG1.jpg" title="Instagram" height="35" width="35"/>
+          </a>
+          <a href="https://www.twitter.com/theculinaryplace" target="_blank">
+              <img src="img/TW.png" title="Twitter" height="35" width="35"/>
+          </a>
+            <p>&copy; 2020 Emma's Food Place. Developed by Emmanuella</p>
+        </footer>
+
+    
+</body>
+</html>
